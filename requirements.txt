@@ -1,3 +1,7 @@
 streamlit
 PyPDF2
 pandas
+joblib
+sklearn
+os
+nltk
