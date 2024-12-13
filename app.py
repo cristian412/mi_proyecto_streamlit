@@ -115,10 +115,10 @@ def cargar_modelo_y_predecir(vectorizador_path, modelo_path, nuevo_texto):
         return None
 
 # Interfaz de Streamlit
-st.title('Aplicación de Predicción Binaria desde PDF')
+st.title('Predicción de sentencias de la Sala Penal de la Corte Suprema de Justicia del Paraguay')
 
 # Subir archivo PDF
-uploaded_file = st.file_uploader("Sube tu archivo PDF", type="pdf")
+uploaded_file = st.file_uploader("Sube un archivo PDF", type="pdf")
 
 if uploaded_file is not None:
     # Extraer el texto del PDF
